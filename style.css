@@ -12,3 +12,84 @@
       font-size: 3.5rem;
     }
   }
+
+
+
+/* Reset the default margin and padding for the body and HTML elements */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Style for the content container */
+.content {
+  min-height: 100%;
+  padding-bottom: 100px; /* Adjust as needed to prevent content from overlapping the footer */
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for the footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style for the About Us and Contact sections */
+.about-us,
+.contact {
+  width: 45%;
+  padding: 10px;
+}
+
+/* Style for the headings */
+h3 {
+  font-size: 1.2rem;
+}
+
+/* Style for the paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Style links in the footer */
+a {
+  color: #e03333;
+  text-decoration: none;
+}
+
+.Parent { 
+  display: flex; 
+  flex-direction: row; 
+  border:5px solid;
+  padding: 10px;
+  grid-gap: 15px;
+
+} 
+
+.child1 { 
+  width: 50%; 
+  height: 50vh; 
+  background-color:pink; 
+  text-align: right; 
+  color:black; 
+  
+} 
+
+.child2 { 
+  width: 50%; 
+  background-color: aqua;
+  color: green; 
+  height: 50vh; 
+ 
+}
