@@ -1,22 +1,21 @@
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
-
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-
-
+}
 
 /* Reset the default margin and padding for the body and HTML elements */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -68,28 +67,34 @@ a {
   text-decoration: none;
 }
 
-.Parent { 
-  display: flex; 
-  flex-direction: row; 
-  border:5px solid;
+.Parent {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid;
   padding: 10px;
   grid-gap: 15px;
+}
 
-} 
+.child1 {
+  width: 50%;
+  height: 50vh;
+  background-color: pink;
+  text-align: right;
+  color: black;
+}
 
-.child1 { 
-  width: 50%; 
-  height: 50vh; 
-  background-color:pink; 
-  text-align: right; 
-  color:black; 
-  
-} 
-
-.child2 { 
-  width: 50%; 
+.child2 {
+  width: 50%;
   background-color: aqua;
-  color: green; 
-  height: 50vh; 
- 
+  color: green;
+  height: 50vh;
+};
+.navbar-logo {
+width: 10px;
+height: 10px;
+}
+/*style the image on hover*/
+.navbar-logo:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
