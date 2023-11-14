@@ -24,7 +24,8 @@ html {
 /* Style for the content container */
 .content {
   min-height: 100%;
-  padding-bottom: 100px; /* Adjust as needed to prevent content from overlapping the footer */
+  padding-bottom: 100px;
+  /* Adjust as needed to prevent content from overlapping the footer */
 }
 
 /* Style for the footer */
@@ -67,7 +68,7 @@ a {
   text-decoration: none;
 }
 
-.Parent {
+.parent-grid {
   display: flex;
   flex-direction: row;
   border: 5px solid;
@@ -75,7 +76,7 @@ a {
   grid-gap: 15px;
 }
 
-.child1 {
+.Parent-grid {
   width: 50%;
   height: 50vh;
   background-color: pink;
@@ -83,18 +84,22 @@ a {
   color: black;
 }
 
-.child2 {
+.left-grid {
   width: 50%;
   background-color: aqua;
   color: green;
   height: 50vh;
-};
-.navbar-logo {
-width: 10px;
-height: 10px;
 }
+
+;
+
+.navbar-logo {
+  width: 10px;
+  height: 10px;
+}
+
 /*style the image on hover*/
-.navbar-logo:hover{
+.navbar-logo:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
 }
