@@ -76,7 +76,7 @@ a {
   grid-gap: 15px;
 }
 
-.Parent-grid {
+.right-grid {
   width: 50%;
   height: 50vh;
   background-color: pink;
@@ -93,10 +93,10 @@ a {
 
 ;
 
-.navbar-logo {
+/* .navbar-logo {
   width: 10px;
   height: 10px;
-}
+} */
 
 /*style the image on hover*/
 .navbar-logo:hover {
