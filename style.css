@@ -31,3 +31,28 @@ li {
     align-items: center;
     color: white;
 }
+footer{
+    background-color: rgb(84,67,67);
+    color: white;
+    padding: 20px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-us{
+flex: 0 0 48%;
+padding-left: 15px;
+}
+.contact{
+    padding-right: 10px;
+
+}
+
+.login{
+    padding-right: 10px;
+}
+.logo{
+    padding-left: 10px;
+}
