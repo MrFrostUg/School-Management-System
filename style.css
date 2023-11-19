@@ -56,23 +56,31 @@ padding-left: 15px;
 .logo{
     padding-left: 10px;
 }
-.card{
-   display: flex;
-   margin: 10px;
-   width: 270px;
-   height: 200px;
 
-}
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
 
 }
 
+.card{
+    display: flex;
+    margin:auto;
+    width: 270px;
+    height: 200px;
+    padding: 2px;
+   
+    
+ }
+
 .addstudent{
     width: 70px;
-    display:inline-block;
-    justify-content: center;
-   align-items: center;
+    display: block;
+    margin: auto;
     
+}
+.card-boarded{
+    margin-top: 100px;
 }
