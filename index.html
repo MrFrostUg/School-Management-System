@@ -26,18 +26,21 @@
 
 <body class="d-flex flex-column min-vh-100">
     <header>
-        <div class="navigation bar">
-            <div id="navigation-container">
+        <div class="navigation bar" >
+            <div id="navigation-container" class="d-flex justify-content-between align-items-center">
                 <img class="logo" src="https://img.icons8.com/?size=48&id=40734&format=png">
-                <ul>
-                    <li id="home"><a href="#">Home</a></li>
-                    <li><a href="#">Classes</a></li>
-                    <li><a href="#">Teachers</a></li>
-                    <li><a href="#">Students</a></li>
+                <ul class="list-unstyled d-flex mb-0">
+                    <li id="home" class="me-3"><a href="#">Home</a></li>
+                    <li class="me-3"><a href="#">Classes</a></li>
+                    <li class="me-3"><a href="#">Teachers</a></li>
+                    <li class="me-3"><a href="#">Students</a></li>
                     <img class="login" src="https://img.icons8.com/ios-glyphs/30/user-male-circle.png" alt="user-male-circle"/>
                 </ul>
+                
             </div>
+            
         </div>
+        
     </header>
 
     <section class="container">
@@ -71,13 +74,14 @@
 </div>
 
     </section>
-    <img class="addstudent" src="https://www.iconpacks.net/icons/4/free-icon-add-button-12017.png" alt="addStudent"/>
+    <img id="addstudent" src="https://www.iconpacks.net/icons/4/free-icon-add-button-12017.png" alt="addStudent"/>
+    <span class="press-to-add-student">Add new Student</span>
 
 
     <div class="card-boarded">
         <div class="card-body">
-            <h5 class="namatasection">Namata School of Software EngineerinG 23/24 LMS</h5>
-            <P>Here you can find about Classes, Teachers and graded Students for the academic year 23/24 at our School</P>
+            <h5 class="namatasection">Namata School of Software Engineering 23/24 LMS</h5>
+            <P>Here you can find about Classes, Teachers and graded Students for the academic Year 23/24 at our School</P>
         </div>
 
     </div>
@@ -98,6 +102,9 @@
     </footer>
 
     <script type="module" src="script.js"></script>
+    <script type="module" src="students.js"></script>
+    <script type="module" src="teachers.js"></script>
+
 </body>
 
 </html>
