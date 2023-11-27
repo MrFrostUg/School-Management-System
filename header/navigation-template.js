@@ -18,5 +18,5 @@ export default function navTemplate() {
       </ul>
       <i class="bi bi-person-circle"></i>
     </div>
-  </nav> `
+  </nav> `;
 }

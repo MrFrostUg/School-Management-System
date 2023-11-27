@@ -7,5 +7,5 @@ export default function footerTemp(){
         <span class="ms-3 text-body-secondary">&copy; 2023 Learning Management System</span>
     </div>
 </footer>
-`
-};
+`;
+}

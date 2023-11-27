@@ -1,4 +1,4 @@
-import navTemplate from './header.template'
+import navTemplate from './header.template.js'
 
 export default {
     render: navTemplate
